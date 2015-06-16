@@ -56,23 +56,23 @@ model.Get()
 ####数据api
 
 **基本结构**
-| - Resource
-  | - SetHeader
-  | - Batch
-  | - Factory
-    | - Get(+1 重载)
-    | - Query(+1 重载)
-    | - Create(+3 重载)
-    | - Edit(+1 重载)
-    | - Delete(+1 重载)
-    | - Count(+2 重载)
-    | - Exists
-    | - FindOne(+1 重载)
-    | - Login
-    | - Logout(+1 重载)
-    | - Verify
-    | - Reset
-    | - Upload(+4 重载)
+│―Resource
+  │―SetHeader
+  │―Batch
+  │―Factory
+    │―Get(+1 重载)
+    │―Query(+1 重载)
+    │―Create(+3 重载)
+    │―Edit(+1 重载)
+    │―Delete(+1 重载)
+    │―Count(+2 重载)
+    │―Exists
+    │―FindOne(+1 重载)
+    │―Login
+    │―Logout(+1 重载)
+    │―Verify
+    │―Reset
+    │―Upload(+4 重载)
 
 #####**Resource**
 ------
@@ -566,8 +566,8 @@ using (var fs1 = new FileStream("file path", FileMode.Open))
 ####推送api
 
 **基本结构**
-|-Push
-  |-Message(+1 重载)
+│―Push
+  │―Message(+1 重载)
 
 #####**Message**
 ------
@@ -606,13 +606,13 @@ ret = push.Message(pararm);
 ####统计api
 
 **基本结构**
-|-Analytics
-  |-getAppStatisticDataById
-  |-getVersionsStatisticDataById
-  |-getGeoStatisticDataById
-  |-getDeviceStatisticDataById
-  |-getExceptionsStatisticDataById
-  |-getExceptionsDetailByTitle
+│―Analytics
+  │―getAppStatisticDataById
+  │―getVersionsStatisticDataById
+  │―getGeoStatisticDataById
+  │―getDeviceStatisticDataById
+  │―getExceptionsStatisticDataById
+  │―getExceptionsDetailByTitle
 
 #####**getAppStatisticDataById**
 ------
